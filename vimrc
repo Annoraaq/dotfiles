@@ -33,7 +33,6 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'enricobacis/vim-airline-clock'
 Plug 'scrooloose/nerdcommenter'
-Plug 'elixir-lang/vim-elixir'
 Plug 'thinca/vim-ref'
 Plug 'janko-m/vim-test'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
