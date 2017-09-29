@@ -19,6 +19,7 @@ set colorcolumn=81
 set noswapfile
 set guifont=Monospace:h20
 colorscheme onedark
+" colorscheme solarized
 
 autocmd BufWritePre * :%s/\s\+$//e
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
@@ -29,7 +30,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'elixir-lang/vim-elixir'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'enricobacis/vim-airline-clock'
 Plug 'scrooloose/nerdcommenter'
@@ -40,8 +41,11 @@ Plug 'mileszs/ack.vim'
 Plug 'archSeer/elixir.nvim'
 Plug 'tpope/vim-fugitive'
 
-let g:airline_theme='solarized'
+let g:solarized_termcolors=256
+
+let g:airline_theme='bubblegum'
 let g:airline_solarized_bg='dark'
+let g:airline_powerline_fonts = 1
 
 call plug#end()
 
