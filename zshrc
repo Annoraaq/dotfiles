@@ -12,6 +12,7 @@ plugins=(git history-substring-search, chucknorris)
 
 [[ -f ~/.aliases ]] && source ~/.aliases
 
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -86,3 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# Vim Mode
+set -o vi
