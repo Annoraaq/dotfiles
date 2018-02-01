@@ -11,7 +11,9 @@ ZSH_THEME="johannes-nanotech"
 plugins=(git history-substring-search, chucknorris)
 
 [[ -f ~/.aliases ]] && source ~/.aliases
+PATH=$PATH:/usr/local/sbin
 
+source /usr/local/opt/asdf/asdf.sh
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -90,3 +92,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Vim Mode
 set -o vi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

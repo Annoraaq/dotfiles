@@ -18,10 +18,12 @@ set showmatch
 set colorcolumn=81
 set noswapfile
 set guifont=Monospace:h20
+"colorscheme ibmedit
 colorscheme onedark
+"colorscheme phosphor
 " colorscheme solarized
 
-autocmd BufWritePre * :%s/\s\+$//e
+"autocmd BufWritePre * :%s/\s\+$//e
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -40,6 +42,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'mileszs/ack.vim'
 Plug 'archSeer/elixir.nvim'
 Plug 'tpope/vim-fugitive'
+Plug 'kien/ctrlp.vim'
 
 let g:solarized_termcolors=256
 
@@ -58,6 +61,7 @@ map <down>  :echo "No cursor, you idiot"<cr>
 let mapleader=","
 nmap <leader>d :set background=dark<cr>
 nmap <leader>l :set background=light<cr>
+nmap <leader>p :colorscheme phosphor<cr>
 nmap <leader>n :NERDTreeToggle<cr>
 nmap <silent> <leader>t :TestNearest<cr>
 nmap <silent> <leader>T :TestFile<cr>
