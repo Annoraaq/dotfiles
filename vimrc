@@ -43,6 +43,8 @@ Plug 'mileszs/ack.vim'
 Plug 'archSeer/elixir.nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'tpope/vim-fugitive'
 
 let g:solarized_termcolors=256
 
@@ -63,6 +65,7 @@ nmap <leader>d :set background=dark<cr>
 nmap <leader>l :set background=light<cr>
 nmap <leader>p :colorscheme phosphor<cr>
 nmap <leader>n :NERDTreeToggle<cr>
+nmap <leader>gb :Gblame<cr>
 nmap <silent> <leader>t :TestNearest<cr>
 nmap <silent> <leader>T :TestFile<cr>
 nmap <silent> <leader>a :TestSuite<cr>

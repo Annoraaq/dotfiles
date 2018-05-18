@@ -1,4 +1,3 @@
-alias wow='git status'
 alias vi='nvim'
 
 alias wow='git status'
@@ -13,10 +12,16 @@ alias dcl='docker-compose logs -f'
 alias dcp='docker-compose ps'
 alias dct='docker-compose run app test'
 alias gp='git push'
+alias gpl='git pull'
 alias gc='git commit --verbose'
 alias lol='iex -S mix'
 alias gaa='git add -A'
+alias gpuo='git push -u origin $(git rev-parse --abbrev-ref HEAD)'
+alias gönnung='git pull'
+alias yft='yarn flow && yarn test && yarn eslint'
 
 alias composer='php ~/composer.phar'
 alias laravel='~/.composer/vendor/bin/laravel'
 alias ldu='docker-compose up -d nginx mysql'
+
+alias localhorst='sudo ifconfig lo0 alias 192.168.100.1'

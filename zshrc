@@ -14,6 +14,7 @@ plugins=(git history-substring-search, chucknorris)
 PATH=$PATH:/usr/local/sbin
 
 source /usr/local/opt/asdf/asdf.sh
+MAILCHECK=0
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
