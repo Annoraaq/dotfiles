@@ -10,7 +10,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+cmd+p",
+        "key": "shift+cmd+o",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
