@@ -1,11 +1,20 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "[Comma] space",
-        "command": "workbench.action.showCommands"
-    },
-    {
         "key": "f1",
         "command": "-workbench.action.showCommands"
+    }
+    ,{
+        "key": "shift+alt+t",
+        "command": "railsTestRunner.runAllTestsInFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.toggleTerminal"
     }
 ]
