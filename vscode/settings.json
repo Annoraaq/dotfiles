@@ -2,7 +2,6 @@
     "locale":"en-US",
     "javascript.validate.enable":false,
     "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Visual Studio Dark",
     "editor.rulers": [
         80
     ],
@@ -11,4 +10,5 @@
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Visual Studio Dark",
 }
