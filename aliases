@@ -26,3 +26,5 @@ alias laravel='~/.composer/vendor/bin/laravel'
 alias ldu='docker-compose up -d nginx mysql'
 
 alias localhorst='sudo ifconfig lo0 alias 192.168.100.1'
+
+alias code='code-insiders'
