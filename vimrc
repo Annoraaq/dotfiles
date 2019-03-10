@@ -1,4 +1,3 @@
-execute pathogen#infect()
 set autoindent
 set smartindent
 
@@ -40,7 +39,7 @@ Plug 'thinca/vim-ref'
 Plug 'janko-m/vim-test'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'mileszs/ack.vim'
-Plug 'archSeer/elixir.nvim'
+"Plug 'archSeer/elixir.nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
 Plug 'ntpeters/vim-better-whitespace'

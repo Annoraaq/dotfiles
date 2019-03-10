@@ -1,14 +1,14 @@
 {
-    "locale":"en-US",
-    "javascript.validate.enable":false,
-    "editor.renderWhitespace": "all",
-    "editor.rulers": [
-        80
-    ],
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "editor.tabSize": 2,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "Visual Studio Dark",
+  "locale": "en-US",
+  "javascript.validate.enable": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.scrollback": 10000,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true
 }
