@@ -2,7 +2,9 @@
   "locale": "en-US",
   "javascript.validate.enable": false,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.minimap.enabled": false,
   "window.zoomLevel": 0,
   "editor.tabSize": 2,
@@ -16,5 +18,16 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "SynthWave '84",
+  "vscode_custom_css.imports": [
+    "file:///Users/annoraaq/dotfiles/vscode/synthwave84.css"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
